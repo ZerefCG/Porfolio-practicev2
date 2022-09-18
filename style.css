@@ -1,0 +1,552 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    background-color:#f2f2f2;
+  
+    
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+}
+
+
+/*------ HEADER SECTION----- */
+
+
+.intro-container{
+    background-image:
+     linear-gradient(to right, rgba(0,0,0, 0.4) 33%, rgba(216, 170 , 216, 0.4)),
+     url(img/2388400921_preview_icon.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 2rem;
+    animation: gradient 15s ease infinite
+}
+
+
+
+
+.intro-container a{
+
+    color: white;
+}
+
+/* STYLES NAV AND LOGO */
+
+/* CLASES PARA TITULOS  */
+
+.black{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+
+/* ----LOGO----- */
+.container .navegacion .logo{
+    width:20%;
+   
+}
+
+.container .navegacion .logo img{
+    width: 100%;
+  
+    
+}
+/* LOGO END */
+
+/* START NAV */
+
+.container .navegacion{
+    display: flex;
+    align-items: center;
+}
+
+.container .navegacion .list-nav{
+    width: 90%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.container .navegacion .list-nav li{
+    display: inline-block;  
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
+    
+}
+
+
+.container .navegacion .list-nav li a{
+    text-decoration: none; 
+}
+
+.container .navegacion .list-nav li a:hover{
+    text-decoration: underline;
+    transition: 0.2s all;
+     
+}
+
+
+/* IMAGE--AWAKENING STARS NOW--BUTTON JOIN NOW*/
+
+.section-columns{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.section-columns>div{
+    width: 49%;
+}
+
+.section-columns .header-bg{
+    width: 23rem;
+}
+
+.section-columns .header-bg img{
+    width: 100%;
+}
+
+/* ----TITTLE AWAKENING----*/
+
+.intro-container .section-columns h2{
+    padding-top:4rem;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+ .section-columns h2{
+    font-size: 4.5rem;
+  
+}
+
+/* STYLE BUTTONS */
+
+.button{
+    padding: 1.3rem 4rem;
+    border: 0.2px solid;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+    
+}
+
+.button-white{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+.button-black{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+/* HOVERS OF BUTTONS */
+
+.button-black:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s all;
+}
+
+
+.button-white:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s all;
+}
+
+
+/* END FIRST SECTION */
+
+
+/* START THE SECOND SECTION BIOPGRAPHY */
+
+
+/* SKEW for EFFECT on the BORDERS */
+
+.rectangle{
+    height:6.25rem ;
+    margin-top: -3.1rem;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-gradient{
+    background-image: linear-gradient(to right, #332244 , #9163A1);
+}
+
+.skew-left{
+    transform: skewY(-4deg);
+
+}
+
+.skew-right{
+    transform: skewY(4deg);
+}
+
+/* START THE DESCRIPTION BIO */
+
+
+.section-columns .bio{
+    text-align: left;
+    min-height: 39.5rem;
+}
+
+.bio h3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin: 1.7rem 0rem;
+}
+
+.bio p{
+    padding-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+/* COLOR LINKS OF BIO STYLES */
+
+.bio .link-bio{
+    text-decoration: none;
+    color: #184DA8;
+}
+
+/* HOVERS OF LINKS ON THE BIO */
+
+.bio .link-bio:hover{
+    text-decoration: underline;
+    transition: 0.2s all;
+}
+
+/* Some colors for testing */
+
+.bio .js{
+    color: 
+    #f0db4f ;
+}
+
+.bio .php{
+    color:  #484C89;
+}
+
+.bio .economy{
+    color: #184DA8;
+}
+
+
+/* SECOND SECTION ECONOMY-GAMING-DEV */
+
+.second-section, .third-section  {
+    margin-top: -3.125rem;
+    padding-top:8rem;
+   
+}
+
+/* display flex container gif */
+
+.second-section .container-gif{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.second-section .bg-section-gif{
+    width: 20rem;
+    margin-left: 1rem;
+}
+
+.bg-section-gif img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* THIRD SECTION */
+
+.section{
+    display: flex;
+    align-items: center;
+}
+
+.third-section{
+    min-height: 39.5rem;
+    display: flex;
+    align-items: center;
+}
+/* FOR CENTER SECOND SECTION WITHOUT PADDINGS, TRY COMMENT DISPLAY FLEX and ALIGN */
+
+
+.section-columns .bg-img-sections{
+    width: 40rem;
+    align-self: flex-end;
+    
+}
+
+
+.section-columns .phone{
+    width: 35vw;
+
+}
+
+.section-columns .bg-img-sections img{
+    width: 100%;
+    
+}
+
+/* LAST SECTION BEFORE FOOTER COMPUTER */
+
+.section-columns .computer{
+    width: 45vw;
+
+}
+
+
+/* FOOTER STYLES */
+
+footer{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 20% , rgba(0,0,0,0.7)), url(img/teahub.io-outrun-wallpaper-700630.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    
+    
+}
+
+footer {
+    margin-top: -3.125rem;
+    min-height: 34.75rem;
+    padding-top:10rem
+}
+
+footer .section-columns{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* FOOTER H3 and Paragraph */
+
+footer h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+footer .section-columns p{
+    color: #f2f2f2;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.bg-black{
+    background-color: black;
+}
+
+/* FOOTER BUTTONS */
+footer .socialmedias .button-box{
+    display: flex;
+ 
+}
+
+
+
+
+footer .socialmedias .button-box .button{
+    margin-right: 0.8rem;
+    padding: 1.1rem 2rem;
+    border: 0.2px solid;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* MEDIA QUERIES TO 1090px */
+
+@media screen and (max-width:1090px)
+
+{       
+
+    /* LOGO */
+
+    .container .navegacion .logo{
+        width:30%;
+       
+    }
+
+    /* TITTLES AND P FONT SIZES */
+    .section-columns h2{
+        font-size: 3.5rem;
+        
+    }
+
+
+
+    /* NAV SECTION */
+
+    .container .navegacion .list-nav{
+        
+        width: 90%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 3rem;
+    }
+
+    .container .navegacion{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    
+    }
+
+    /* SUNG JIN WOO IMG */
+
+    .section-columns .header-bg{
+        min-width: 40%;
+    }
+    
+    /* END NAV SECTION */
+
+
+   
+
+    .section-columns>div{
+        width: 95vw;
+        text-align: center;
+
+    }
+
+    .section-columns{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    /* SECTION WITH GIFS */
+    .second-section .container-gif{
+        display: flex;
+        padding-top: 4rem;
+        
+    }
+
+    /* SECTION COLUMNBS BIO */
+
+    .section-columns .bio{
+        text-align: center;
+    }
+    
+    /* SECTION COLUMNS IMGS */
+
+    .section-columns .bg-img-sections{
+        padding-top: 2rem;
+        align-self: center;
+        width:70vw;
+       
+    }
+
+    .section-columns .bg-img-sections img{
+        width: 100%;
+        
+    }
+    
+    /* FOOTER NOW */
+
+    footer .socialmedias .button-box{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    footer .socialmedias .button-box .button{
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+    
+    }
+    }
+    
+
+   
+
+    
+/* MEDIA QUERIES FOOTER 658px */
+
+@media screen and (max-width:658px)
+{
+    footer .button-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+      .button{
+        margin-bottom: 1rem;
+        margin-right:0;
+    }
+}
+
+
+    /* MEDIA QUERIES 559px */
+
+    @media screen and (max-width:559px)
+    {
+        .hobbies{
+            display: none;
+        }
+
+        .section-columns h2{
+            font-size: 2.5rem;
+            
+        }
+
+        /* CONTAINER GIF IN ONE COLUMN */
+
+        .container-gif{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* DELETING THE PADDINGS A BIT */
+
+        .second-section, .third-section {
+            margin-top: -3.125rem;
+            padding-top: 5rem;
+        }
+    }
+
+    /* MEDIA QUERIE 337 UNIQUE */
+
+    @media screen and (max-width:337px)
+
+    {
+        .hobbies-unique{
+            display: none;
+        }
+    }
