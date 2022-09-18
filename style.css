@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     max-width: 1100px;
     overflow: hidden;
+   
 }
 
 
@@ -107,6 +108,7 @@ body{
 .section-columns{
     display: flex;
     justify-content: space-between;
+    min-height: 39.5rem; 
    
     
 }
@@ -301,7 +303,7 @@ body{
 
 .section-columns .bg-img-sections{
     width: 40rem;
-    align-self: flex-end;
+    align-self: center;
     
 }
 
@@ -335,6 +337,8 @@ footer{
     display:flex;
     flex-wrap: wrap;
     align-items:center;
+    min-height: 2rem;
+    
     
     
 }
@@ -348,6 +352,7 @@ footer {
 footer .section-columns{
     flex-wrap: wrap;
     align-items: center;
+    min-height: 25rem;
 }
 
 /* FOOTER H3 and Paragraph */
@@ -371,7 +376,6 @@ footer .socialmedias .button-box{
     display: flex;
  
 }
-
 
 
 
